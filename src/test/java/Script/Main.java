@@ -20,7 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Main
 {
 	WebDriver driver;
-	//protected String  TestCaseID;
+	protected String  TestCaseID;
 
 	Register register;
 	LogIn login;
@@ -45,7 +45,7 @@ public class Main
 		@Test
 	    public void Testng() throws InterruptedException
 	    {	
-			//TestCaseID = "1";
+			TestCaseID = "T3780";
 			
 			register=new Register(driver);
 			register.Click_On_Register();
@@ -53,20 +53,20 @@ public class Main
 		@Test
 		public void Testng1() throws InterruptedException 
 		{
-			//TestCaseID="2";
+			TestCaseID="T3781";
 			login= new LogIn(driver);
 			login.Click_On_Log_In();
 		}
 		@Test
 		public void Testng2() throws InterruptedException 
 		{
-			//TestCaseID="3";
+			TestCaseID="T3782";
 			add= new Search(driver);
 			add.Click_On_Add();
 		}
 		
 		
-	/*	@AfterMethod
+		@AfterMethod
 		public void AddResult(ITestResult result)
 		{
 			
@@ -78,7 +78,7 @@ public class Main
 			{
 				TestRailManager.AddResult(TestCaseID, TestRailManager.Test_Case_Fail_Status, "Error");
 			}
-		}*/
+		}
 		
 }
 

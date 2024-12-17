@@ -10,12 +10,12 @@ import com.gurock.testrail.APIException;
 
 public class TestRailManager {
 	
-	public static String Test_Run_ID = "1";
+	public static String Test_Run_ID = "R17";
 	
 	public static String TestRail_Username = "studymailid12@gmail.com";
-	public static String TestRail_Password = "Praju$123";
+	public static String TestRail_Password = "Prajakta@123";
 	
-	public static String TestRail_URL = "https://testrailapidemosite.testrail.io/";
+	public static String TestRail_URL = "https://testrailjenkins.testrail.io/";
 	
 	public static int Test_Case_Pass_Status = 1;
 	public static int Test_Case_Fail_Status = 5;
