@@ -45,7 +45,7 @@ public class Main
 		@Test
 	    public void Testng() throws InterruptedException
 	    {	
-			TestCaseID = "T3780";
+			TestCaseID = "3780";
 			
 			register=new Register(driver);
 			register.Click_On_Register();
@@ -53,14 +53,14 @@ public class Main
 		@Test
 		public void Testng1() throws InterruptedException 
 		{
-			TestCaseID="T3781";
+			TestCaseID="3781";
 			login= new LogIn(driver);
 			login.Click_On_Log_In();
 		}
 		@Test
 		public void Testng2() throws InterruptedException 
 		{
-			TestCaseID="T3782";
+			TestCaseID="3782";
 			add= new Search(driver);
 			add.Click_On_Add();
 		}

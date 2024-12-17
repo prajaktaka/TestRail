@@ -10,7 +10,7 @@ import com.gurock.testrail.APIException;
 
 public class TestRailManager {
 	
-	public static String Test_Run_ID = "R17";
+	public static String Test_Run_ID = "17";
 	
 	public static String TestRail_Username = "studymailid12@gmail.com";
 	public static String TestRail_Password = "Prajakta@123";
