@@ -1,0 +1,5 @@
+# Created at 2024-12-16T11:57:09.404
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Intellij\TestRail_API\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
